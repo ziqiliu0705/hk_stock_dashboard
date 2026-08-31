@@ -26,8 +26,8 @@ def get_plotly_template() -> dict:
         layout=dict(
             font=dict(family=FONT_FAMILY, color=COLOR_TEXT, size=13),
             title=dict(font=dict(family=FONT_FAMILY, color=COLOR_NAVY, size=20)),
-            paper_bgcolor="rgba(0,0,0,0)",
-            plot_bgcolor="rgba(0,0,0,0)",
+            paper_bgcolor=COLOR_BG,
+            plot_bgcolor="#FFFFFF",
             colorway=CHART_PALETTE,
             xaxis=dict(gridcolor="#E5E3DD", zerolinecolor="#E5E3DD",
                        title_font=dict(size=12, color=COLOR_TEXT_LIGHT)),
